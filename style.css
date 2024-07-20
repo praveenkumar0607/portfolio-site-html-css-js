@@ -430,3 +430,13 @@ footer {
 footer p {
   text-align: center;
 }
+
+.no-underline {
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+}
