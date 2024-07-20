@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Other Projects</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+<div class="logo">Praveen Kumar</div>
+<div>
+    <ul class="nav-links">
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#experience">Experience</a></li>
+    <li><a href="index.html#projects">Projects</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+</div>
+</nav>
+<nav id="hamburger-nav">
+<div class="logo">Praveen Kumar</div>
+<div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <div class="menu-links">
+    <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+    <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+    <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+    <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+</div>
+</nav>
+<section id="other-projects">
+<p class="section__text__p1">Explore My</p>
+<h1 class="title">Other Projects</h1>
+<div class="experience-details-container">
+    <div class="about-containers">
+    <div class="details-container color-container">
+        <div class="article-container">
+        <img
+            src="./assets/fake-news.png"
+            alt="Project 1"
+            class="project-img"
+        />
+        </div>
+        <h2 class="experience-sub-title project-title">FAKE NEWS DETECTION</h2>
+        <p>
+            <li>The site aims to identify and reduce the spread of fake news</li>
+            <li>Python, machine learning (scikit-learn, TensorFlow), NLP, and web frameworks (Flask/Django) used</li>
+            <li>Users input news, the model analyzes it, and it classifies the news as real or fake based on trained datasets</li>
+        </p>
+        <div class="btn-container">
+        <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://github.com/praveenkumar0607/Fake-News-Detection', '_blank')"
+        >
+            Github
+        </button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+        <img
+            src="./assets/Tic_tac_toe.svg.png"
+            alt="Project 2"
+            class="project-img"
+        />
+        </div>
+        <h2 class="experience-sub-title project-title">TIC TAC TOE</h2>
+        <p>
+            <li>The game provides a fun and interactive way to play Tic Tac Toe</li>
+            <li>Python and the Pygame library for game development</li>
+            <li>Players take turns to place their marks (X or O) on a 3x3 grid, and the game checks for a win or draw after each move</li>
+        </p>
+        <div class="btn-container">
+        <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://github.com/praveenkumar0607/Tic-Tac-Toe-Python-Pygame', '_blank')"
+        >
+            Github
+        </button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+        <img
+            src="./assets/boston-house.png"
+            alt="Project 3"
+            class="project-img"
+        />
+        </div>
+        <h2 class="experience-sub-title project-title">BOSTON HOUSE PRICE PREDICTION</h2>
+        <p>
+            <li>The project aims to predict house prices in Boston based on various features</li>
+            <li>Python, machine learning, matplolib, seaborn</li>
+            <li>The model trains on historical housing data, analyzes features such as location and size, and predicts house prices based on these features</li>
+        </p>
+        <div class="btn-container">
+        <button
+            class="btn btn-color-2 project-btn"
+            onclick="window.open('https://github.com/praveenkumar0607/BostonHousePricePrediction', '_blank')"
+        >
+            Github
+        </button>
+        </div>
+    </div>
+    <!-- Add more project boxes as needed -->
+    </div>
+</div>
+</section>
+<br><br>
+<footer>
+<nav>
+    <div class="nav-links-container">
+    <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#experience">Experience</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    </div>
+</nav>
+<p>Copyright &#169; 2024 Praveen Kumar. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
