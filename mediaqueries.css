@@ -1,3 +1,4 @@
+/* Existing media queries */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -47,6 +48,7 @@
   }
 }
 
+/* Add new styles for stacking sections on mobile */
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -99,5 +101,15 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  /* New styles for mobile-friendly layout */
+  .experience,
+  .education,
+  .data-scientist,
+  .skills {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
